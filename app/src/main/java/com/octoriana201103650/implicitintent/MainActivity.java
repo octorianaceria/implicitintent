@@ -85,4 +85,8 @@ public class MainActivity extends AppCompatActivity {
         Intent bluetooth = new Intent(Settings.ACTION_BLUETOOTH_SETTINGS);
         startActivity(bluetooth);
     }
+    public void tampilGDrive(View view) {
+        Intent gdrive = new Intent(Settings.ACTION_ADD_ACCOUNT);
+        startActivity(gdrive);
+    }
 }
